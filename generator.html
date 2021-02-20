@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Generátor</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+    <header>
+        <h1>Generátor náhodných zmesí písmen</h1>
+        <br>
+    </header>
+    <main>
+        <h2>Vygenerované slovo:</h4>
+        <h3 id="vygenerovane">Tu bude vygenerované slovo</h6>
+        <br><br>
+        Dĺžka: <input type="number" id="dlzkaInput">
+        Prvé písmeno: <input type="text" maxlength="1" id="prveInput">
+        Posledné písmeno: <input maxlength="1" id="posledneInput">
+        <br><br>
+        Ďalšie písmená(píš vo formáte koľké písmeno - písmeno, oddeľuj čiarkami):
+        <br>
+        <textarea rows="3" cols="100" id="dalsieInput"></textarea>
+        <br><br>
+        <button id="cudel" onclick="generate()">Generuj!</button>
+    </main>
+    <footer>
+
+    </footer>
+</body>
