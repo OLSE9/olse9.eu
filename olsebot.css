@@ -1,0 +1,114 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+
+#mainTable {
+    background-color: deepskyblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.categoryButton {
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 16px;
+    border: 4px solid teal;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.categoryButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#moderationButton {
+    background-color: deepskyblue;
+}
+
+#moderationButton:hover {
+    background-color: #00cfff;
+}
+
+#economyButton {
+    background-color: orange;
+}
+
+#economyButton:hover {
+    background-color: #ffb500;
+}
+
+#funButton {
+    background-color: greenyellow;
+}
+
+#funButton:hover {
+    background-color: #c2ff84;
+}
+
+#otherButton {
+    background-color: grey;
+}
+
+#otherButton:hover {
+    background-color: #a3a3a3;
+}
+
+table {
+    border: 3px solid black;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 60px;
+    width: 200px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.moderationRow:hover {
+    background-color: #00cfff;
+}
+
+.economyRow:hover {
+    background-color: #ffb500;
+}
+
+.funRow:hover {
+    background-color: #c2ff84;
+}
+
+.otherRow:hover {
+    background-color: #a3a3a3;
+}
+
+.descriptionField {
+    width: 300px;
+}
+
+.footerButton {
+    background-color: black;
+    color: olivedrab;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 24px;
+    border-radius: 6px;
+    border: 2px solid olivedrab;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 350ms;
+}
+
+.footerButton:hover {
+    background-color: #333333;
+}
