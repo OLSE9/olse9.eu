@@ -1,1 +1,63 @@
-<meta http-equiv="refresh" content="0; url=https://www.olsebot.tk"> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OLSEBOT</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="OLSEBOT, bot, discord">
+        <meta name="description" content="OLSEBOT is multipurpose bot with moderation, fun, its own economy and many other things">
+        <meta name="author" content="OLSE9#4944">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./OLSEBOT_profilovka.jpg">
+
+
+
+    </head>
+   <body>
+        <header>
+            <h1>OLSEBOT</h1>
+            <p>Prefix = "o!"</p> 
+            <br>
+            <hr>
+        </header>
+        <main>
+            <script src="./index.js">
+            </script>
+            <h4>List of commands</h4>
+            <br>
+            <button type="button" onclick="changeTableContent('moderation', moderationCommands)" class="categoryButton" id="moderationButton">Moderation commands</button>  
+            <button type="button"onclick="changeTableContent('economy', economyCommands)" class="categoryButton" id="economyButton">Economy commands</button> 
+            <button type="button"onclick="changeTableContent('fun', funCommands)" class="categoryButton" id="funButton">Fun commands</button>  
+            <button type="button"onclick="changeTableContent('other', otherCommands)" class="categoryButton" id="otherButton">Other commands</button>
+            <br>
+            <h5 id="commandsTitle">Moderation commands</h5>
+            <table id="mainTable">
+                <thead>
+                    <tr>
+                        <th>  Command  </th>
+                        <th>  Description  </th>
+                        <th>  Required permissions  </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <br>
+            <script>
+                appendCommands("mainTable", moderationCommands, "moderationRow")
+            </script>
+ 
+            <hr>
+        </main>
+        <footer>
+            <br>
+            <button class="footerButton" id="inviteButton" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=707635354026639372&scope=bot&permissions=8'">Invite bot!</button>
+            <br><br>
+            <button class="footerButton" id="supportButton" onclick="window.location.href='https://discord.gg/mkFzkbC'">Join support server!</button>
+            <p style="font-size: 20px;">Made by OLSE9#4944</p>
+            <a href="https://top.gg/bot/707635354026639372">
+                <img src="https://top.gg/api/widget/707635354026639372.svg" alt="OLSEBOT" />
+            </a>
+        </footer>
+    </body>
+</html>
