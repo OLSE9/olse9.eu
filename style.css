@@ -1,0 +1,116 @@
+body {
+    background-color: #fffbe7;
+    color: black;
+}
+
+a {
+    color: #8CABBE
+}
+
+h1, h2 {
+    color: #68afcf;
+}
+
+.maly_nadpis {
+    margin-bottom: 0.3em;
+}
+
+.navigator {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33381d;
+}
+
+.navLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navLi a:hover:not(.aktivny) {
+    background-color: #111;
+}
+
+.navLi {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.navLi:last-child {
+    border-right: none;
+}
+
+.aktivny {
+    background-color: #0B4F6C;
+}
+
+@media screen and (max-width: 600px){
+    .navLi {
+        float: none
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #jaobr {
+        width: 15%;
+    }
+}
+
+#jaobr {
+    float: right;
+    margin-right: 3%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 90%;
+}
+
+th {
+    height: 3em;
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+    height: 1.5em;
+    border: 2px solid black;
+}
+
+tr:hover:not(.table_header) {
+    background-color: #fffef8;
+}
+
+.prog {
+    list-style-image: url("obr/odrazky.png");
+}
+
+.citat {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+}
+
+.stred {
+    text-align: center;
+}
+
+.stlpec {
+    flex: 1;
+    text-align: center;
+}
+
+.riadok {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+}
